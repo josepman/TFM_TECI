@@ -1,0 +1,71 @@
+Network Information
+Network 1
+Network Name	APOE-4_4
+
+Atlas	HarvardOxford_110
+
+Imaging Modality	DTI
+
+Subject Pool	APOE 4/4
+
+Group Size	1
+
+Age Range	72.08-72.08
+
+Preprocessing Notes	DTI tractography in two steps: 1) BedpostX used to obtain first + second dyad vectors, 2) Diffusion Toolkit use for tractography using first and second vectors with FACT algorithm, maximum 50 degree turn angle Harvard Oxford cortical/subcortical masks registered to subject DTI space, thresholded at 10% Connectivity matrix generation with UCLA Multimodal Connectivity Package, excluding fibers less than 5mm For paper, graph distance matrices were multiplied by average fiber length between regions
+
+Network 2
+Network Name	TD132_CCN_DTI
+
+Atlas	PowerNeuron_264
+
+Imaging Modality	DTI
+
+Subject Pool	Typically Developing
+
+Group Size	1
+
+Age Range	13.00-13.00
+
+Preprocessing Notes	brain extraction, eddy correction/motion correction, deterministic tractography (5mm fibers excluded), Edges are numbers of fibers between regions in subject native space
+
+
+Global Network Metrics
+Network	APOE-4_4	TD132_CCN_DTI
+
+Raw Density (%)	22.6522101751	8.87775089296
+
+Chosen Density (%)	20	10
+
+Characteristic Path Length	2.05237698082	2.48240004609
+
+Clustering Coefficient	0.588003805744	0.468525859836
+
+Number of Components	1	1
+
+Global Efficiency	0.559118710036	0.455165245612
+
+Modularity	0.414880472645	0.479434448248
+
+Small World Attributes
+
+Sigma	2.10676488428	3.34055762954
+
+Gamma	2.36576025702	4.02316916522
+
+Lambda	1.12293510998	1.20434059561
+
+Edge weight attributes
+
+Unthresholded (raw) network
+
+Edge weight mean +/- stddev:	0.00439299601731 +/- 0.00668968799131	19.2443218689 +/- 29.6864264416
+
+Edge euclidean length mean +/- stddev:	23.801041688 +/- 11.1576870646	42.1509618621 +/- 27.0662450021
+
+Thresholded network
+
+Edge weight mean +/- stddev:	0.00490798455464 +/- 0.00691314750037	19.2443218689 +/- 29.6864264416
+
+Edge euclidean length mean +/- stddev:	22.6376548221 +/- 10.4159275383	42.1509618621 +/- 27.0662450021
+
