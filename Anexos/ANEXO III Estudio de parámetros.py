@@ -64,7 +64,7 @@ ts = pd.read_csv(userpath + 'block_tc_avg.csv', header=None)
 cm = pd.read_csv(userpath + 'block_cmtc_avg.csv', header=None)
 task = pd.read_csv(userpath + 'task_block.csv', header=None)
 
-path_real = "/Users/hose/Desktop/TFM_TECI/MINT_trabajo/Datos/Seleccionados/fmri_sanos/datos/"
+path_real = "/Users/hose/Desktop/TFM_TECI/Datos/Seleccionados/fmri_sanos/datos/"
 real_data = pd.read_csv(path_real + "Baltimore_5562_connectivity_matrix_file.txt" ,header=None, delim_whitespace=True)    # Estos datos serán explicados más adelante en otro documento. Se trabajará con ellos en la comparación entre sujetos sanos y enfermos.
 
 node_of_interest_sim = np.array([[19,20], [23,24], [13,14], [6,7]])     # Nodos de interés en los datos simulados
